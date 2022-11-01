@@ -1,0 +1,16 @@
+/*chnage background image*/
+html{
+  background-image: url('background.jpeg');
+  color: white;
+  padding: 2rem;
+}
+
+.flex-container {
+  color: rgb(64, 64, 111);
+  display: flex;
+  background-color: white;
+  border-radius: 1.5rem;
+  width: 45rem;
+  height: 45rem;
+  margin: 5rem auto;
+}
