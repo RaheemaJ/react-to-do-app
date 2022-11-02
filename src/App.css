@@ -1,16 +1,42 @@
-/*chnage background image*/
-html{
+/*change background image
+change font*/
+html {
   background-image: url('background.jpeg');
   color: white;
-  padding: 2rem;
 }
 
-.flex-container {
-  color: rgb(64, 64, 111);
+.container {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  margin: 1.5rem;
+}
+
+.tasks-box,  .calender-box{
   display: flex;
+  color: rgb(64, 64, 111);
   background-color: white;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  width: 37rem;
+  height: 37rem;
+  margin:0 1.5rem;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+#add-task-box {
+  width: 28rem;
+  height: 3rem;
   border-radius: 1.5rem;
-  width: 45rem;
-  height: 45rem;
-  margin: 5rem auto;
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+#add-task-button {
+  border-radius: 1.5rem;
+  height: 3rem;
+  width: 6rem;
+  margin-left: 0.3rem;
 }
