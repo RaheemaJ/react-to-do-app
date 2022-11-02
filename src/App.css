@@ -1,5 +1,7 @@
 /*change background image
-change font*/
+change font
+we want the day of the week to stay bold, but not the year or month
+we also want to add aline below the date and another line above the task box*/
 html {
   background-image: url('background.jpeg');
   color: white;
@@ -10,7 +12,7 @@ html {
   flex-direction: row;
   align-items: center;
   justify-items: center;
-  margin: 1.5rem;
+  margin: 4rem 1.5rem;
 }
 
 .tasks-box,  .calender-box{
@@ -25,7 +27,17 @@ html {
   flex-direction: column;
   justify-content: space-between
 }
-
+.full-date {
+  display: inline-flex;
+  align-items: center;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+}
+#date {
+  font-size: 4rem;
+  padding:2rem;
+  margin: 0;
+}
 #add-task-box {
   width: 28rem;
   height: 3rem;
